@@ -1,6 +1,10 @@
+import Navigation from "./components/Navigation";
+
 function App() {
   return (
-    <div className="text-2xl text-red-500 font-bold bg-black h-96">HELLO!</div>
+    <div className="text-2xl bg-[#cdcdcd] h-96">
+      <Navigation></Navigation>
+    </div>
   );
 }
 
