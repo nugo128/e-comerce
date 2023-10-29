@@ -1,9 +1,11 @@
+import Banner from "./components/Banner";
 import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="text-2xl bg-[#cdcdcd] h-96">
+    <div className="text-2xl bg-[#cdcdcd]">
       <Navigation></Navigation>
+      <Banner></Banner>
     </div>
   );
 }
